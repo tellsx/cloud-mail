@@ -15,9 +15,9 @@ database_id = "23e3f136-f8a3-491e-8f9f-bd408fb04d34"		#d1数据库id
 binding = "kv"			#kv绑定名默认不可修改
 id = "3d924838729d48699952cd9ef49cb72e"					#kv数据库id
 
-[[r2_buckets]]
-binding = "r2"			#r2对象存储绑定名默认不可修改
-bucket_name = "email"		#r2对象存储桶的名字
+#[[r2_buckets]]
+#binding = "r2"			#r2对象存储绑定名默认不可修改
+#bucket_name = "email"		#r2对象存储桶的名字
 
 #[[send_email]]
 #name = "email"			#CF发件, 配置后优先使用
